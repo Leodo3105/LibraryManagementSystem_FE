@@ -2,7 +2,7 @@ import axios from 'axios';
 import { getToken, removeToken } from '../utils/localStorage';
 
 // Định nghĩa base URL cho API
-const API_URL = 'http://localhost:5241/api';
+const API_URL = '/api';
 
 // Tạo instance axios
 const axiosInstance = axios.create({
